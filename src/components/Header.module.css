@@ -1,0 +1,13 @@
+.h1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #F1E5D1;
+    color: #987070;
+    position: sticky;
+    top: 0;
+}
+
+a {
+    text-decoration: none;
+}

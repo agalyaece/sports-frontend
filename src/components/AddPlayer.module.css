@@ -1,0 +1,44 @@
+h3 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #F1E5D1;
+    color: #987070;
+    position: sticky;
+    top: 0;
+    margin-top: auto;
+    font-size: x-large; 
+}
+label{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large; 
+   margin-top: 10px;
+   font-weight: bold;
+   color: #987070;
+}
+
+input {
+    width: 30%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    align-items: center;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid rgb(210, 153, 153);
+    border-radius: 4px;
+}
+
+button {
+    background-color: rgb(210, 153, 153); 
+  border: none;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: x-large;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 12px;
+}
