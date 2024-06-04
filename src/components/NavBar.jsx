@@ -21,9 +21,7 @@ export default function Navbar() {
                 <li>
                    <NavLink  to="/player">Players</NavLink> 
                 </li>  
-                <li>
-                   <NavLink  to="/player/addplayer">Add Player</NavLink> 
-                </li> 
+                
                 
             </ul>
         </nav>

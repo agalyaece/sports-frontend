@@ -1,30 +1,37 @@
-import { useState } from "react";
-import axios from "../axios.js";
+import { useEffect, useState } from "react";
 import classes from "./Addplayer.module.css";
-import { Link, useNavigate } from "react-router-dom";
+import { Link, useParams, useNavigate } from "react-router-dom";
+import axios from "../axios.js";
 import toast from "react-hot-toast";
-import Player from "./Player.jsx";
 
-function AddPlayer() {
-
+export default function UpdatePlayer() {
     const navigate = useNavigate();
-    // const [name, setName] = useState();
-    // const [runs, setRuns] = useState();
-    // const [wickets, setWickets] = useState();
-    const [buttonDisabled, setButtonDisabled] = useState(false);
-
+    const { id } = useParams();
     const players = {
         name: "",
         runs: "",
         wickets: ""
     }
     const [player, setPlayer] = useState(players);
+    const [buttonDisabled, setButtonDisabled] = useState(false);
+    const handleUpdateInput = (event) => {
+        const { name, value } = event.target;
+        setPlayer({ ...player, [name]: value })
+    }
 
-    const handleAddPlayer = (event) => {
+    useEffect(() => {
+        axios.get(`/player/getOneplayer/${id}`)
+            .then((response) => {
+                setPlayer(response.data)
+            })
+            .catch((err) => console.log(err))
+    }, [id])
+
+    function handleUpdatePlayer(event) {
         event.preventDefault();
         setButtonDisabled(true);
 
-        axios.post("/player/addplayer", player)
+        axios.put(`/player/updateplayer/${id}`, player)
             .then((response) => {
                 setButtonDisabled(false);
                 toast.success(response.data.msg, { position: "top-right" })
@@ -32,60 +39,50 @@ function AddPlayer() {
 
             })
             .catch((error) => alert(error.message))
-
-        // return alert("Form Submitted Successfully");
-    };
-
-    const handleInput = (event) => {
-        const { name, value } = event.target;
-        setPlayer({ ...player, [name]: value })
     }
 
     return (
         <div className={classes.addPlayer}>
+            
+            <h3>Update Player Details</h3>
 
-            <h3>Add New Player</h3>
-
-            <form onSubmit={handleAddPlayer} className={classes.addUserForm}>
+            <form className={classes.addUserForm} onSubmit={handleUpdatePlayer}>
                 <div className={classes.inputGroup}>
                     <label htmlFor="player_name">Player Name</label>
                     <input
-                        placeholder="Name of Player"
                         type="text"
                         name="name"
-                        onChange={handleInput}
+                        onChange={handleUpdateInput}
+                        value={player.name}
                         required />
                 </div>
 
                 <div className={classes.inputGroup}>
                     <label htmlFor="runs">Runs Scored</label>
                     <input
-                        placeholder="Runs Scored"
                         type="text"
                         name="runs"
-                        onChange={handleInput}
+                        onChange={handleUpdateInput}
+                        value={player.runs}
                         required />
                 </div>
 
                 <div className={classes.inputGroup}>
                     <label htmlFor="wickets">Wickets Taken</label>
                     <input
-                        placeholder="Wickets Taken"
                         type="text"
                         name="wickets"
-                        onChange={handleInput}
+                        onChange={handleUpdateInput}
+                        value={player.wickets}
                         required />
                 </div>
                 <div className={classes.submitdiv}>
-                    <Link to={"/player"}  >
-                        <button className={classes.back} >Back</button> </Link>
-                    <button disabled={buttonDisabled} type="submit" >Add Player</button>
+                <Link to={"/player"}  > 
+                 <button className={classes.back} >Back</button> </Link>
+                <button disabled={buttonDisabled} type="submit" >Update Player</button>
                 </div>
-
-
             </form>
         </div>
     )
 }
 
-export default AddPlayer

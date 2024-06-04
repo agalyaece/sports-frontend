@@ -6,6 +6,7 @@ import Player from "./components/Player";
 import Navbar from "./components/NavBar";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
+import UpdatePlayer from "./components/UpdatePlayer";
 function App() {
 
 
@@ -18,6 +19,7 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/player" element={<Player />} />
         <Route path="/player/addplayer" element={<AddPlayer />} />
+        <Route path="/player/updateplayer/:id" element={<UpdatePlayer />} />
       </Routes>
       <Footer />
     </div>

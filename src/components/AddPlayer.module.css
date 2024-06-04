@@ -1,44 +1,62 @@
-h3 {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: #F1E5D1;
-    color: #987070;
-    position: sticky;
-    top: 0;
-    margin-top: auto;
-    font-size: x-large; 
-}
-label{
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: large; 
-   margin-top: 10px;
-   font-weight: bold;
-   color: #987070;
+.addPlayer {
+  width: 25%;
+  background-color: white;
+  box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.065);
+  border-radius: 5px;
+  margin: 50px auto;
+  padding: 50px;
 }
 
-input {
-    width: 30%;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: large;
-    align-items: center;
-    padding: 12px 20px;
-    margin: 8px 0;
-    box-sizing: border-box;
-    border: 2px solid rgb(210, 153, 153);
-    border-radius: 4px;
+.addUserForm {
+  margin-top: 20px;
 }
 
-button {
-    background-color: rgb(210, 153, 153); 
-  border: none;
-  color: white;
-  padding: 20px;
+.addUserForm .inputGroup {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.addUserForm .inputGroup label {
+  margin-bottom: 5px;
+  color: rgb(211, 131, 103);
+}
+
+.addUserForm .inputGroup input {
+  margin-bottom: 10px;
+  padding: 10px;
+  outline: none;
+  border-radius: 5px;
+  border-color: rgb(218, 193, 184);
+}
+
+.addPlayer h3 {
+  margin-bottom: 10px;
+  
+  color: rgb(120, 51, 40);
   text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: x-large;
-  margin: 4px 2px;
+}
+
+.submitdiv {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.addUserForm button {
+  margin: 0;
+  outline: none;
+  background-color: rgb(120, 51, 40);
+  color: aliceblue;
+  font-weight: 600;
+  padding: 15px;
   cursor: pointer;
-  border-radius: 12px;
+  border-radius: 5px;
+  box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.065);
+  margin-top: 20px;
+}
+.submitdiv .back {
+  text-decoration: none;
+  color: aliceblue;
 }

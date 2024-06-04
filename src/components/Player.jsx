@@ -2,43 +2,70 @@
 
 
 import classes from "./Player.module.css"
+import AddPlayer from "./AddPlayer.jsx";
+import {Link} from "react-router-dom"
 
 import axios from "../axios.js";
 import { useEffect, useState } from "react";
+import toast from "react-hot-toast";
 
 export default function Player() {
 
     const [players, setPlayers] = useState([]);
-
+    const fetchData = async () => {
+        const data = await axios.get("/player");
+        setPlayers(data);
+    };
     useEffect(() => {
-        const fetchData = async () => {
-            const data = await axios.get("/player");
-            setPlayers(data);
-        };
+      
         fetchData();
     }, [])
 
 
+    async function handleDelete(id) {
+        const isConfirmed = window.confirm("Are you sure to delete this player? ");
+        if (isConfirmed) {
+           await axios.delete(`/deleteplayer/${id}`)
+           
+          .then(res => {
+            setPlayers(res.data)
+            toast.success(res.data.msg, {position: "top-right"})
+        })
+          .catch(err => console.log(err))  
+    }
+    fetchData();
+}
+
     return <>
-        <div>
+        <div className={classes.container}>
+            <h4>Player analyzer</h4>
+            <div className={classes.btnadd}>
+               <Link to={"/player/addplayer"}><button className={classes.btngreen} >Add Player</button></Link> 
+            </div>
             <table className={classes.players}>
                 <thead>
                     <tr>
+                        <th>S.No</th>
                         <th>Player Name</th>
-                        <th>Runs Scores</th>
+                        <th>Runs Scored</th>
                         <th>Wickets Taken</th>
+                        <th>Edit</th>
+                        <th>Delete</th>
                     </tr>
                 </thead>
                 <tbody>
-                    {
-                        players.data && players?.data.map(player => (
-                            (<tr key={player.runs} >
-                                <td>{player.name}</td>
-                                <td>{player.runs}</td>
-                                <td>{player.wickets}</td>
+                    {players.data && players?.data.map((player,index) => {
+                        return (<tr key={index} >
+                            <td>{index+1}</td>
+                            <td>{player.name}</td>
+                            <td>{player.runs}</td>
+                            <td>{player.wickets}</td>
+                            <td> <Link to={`/player/updateplayer/${player._id}`} ><button className={classes.btngreen} >Edit</button></Link></td>
+                            <td><button className={classes.btnred} onClick={() => handleDelete(player._id)}>Delete</button></td>
 
-                            </tr>))
-                        )
+                        </tr>)
+                    }
+                    )
                     }
                 </tbody>
             </table>
