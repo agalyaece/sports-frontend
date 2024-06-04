@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import classes from "./Addplayer.module.css";
+import classes from "./Add.module.css";
 import { Link, useParams, useNavigate } from "react-router-dom";
 import axios from "../axios.js";
 import toast from "react-hot-toast";
