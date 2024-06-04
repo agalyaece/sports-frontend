@@ -3,14 +3,12 @@ import axios from "../axios.js";
 import classes from "./Addplayer.module.css";
 import { Link, useNavigate } from "react-router-dom";
 import toast from "react-hot-toast";
-import Player from "./Player.jsx";
+
 
 function AddPlayer() {
 
     const navigate = useNavigate();
-    // const [name, setName] = useState();
-    // const [runs, setRuns] = useState();
-    // const [wickets, setWickets] = useState();
+   
     const [buttonDisabled, setButtonDisabled] = useState(false);
 
     const players = {
@@ -33,7 +31,7 @@ function AddPlayer() {
             })
             .catch((error) => alert(error.message))
 
-        // return alert("Form Submitted Successfully");
+       
     };
 
     const handleInput = (event) => {
