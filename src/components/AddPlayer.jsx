@@ -1,6 +1,6 @@
 import { useState } from "react";
 import axios from "../axios.js";
-import classes from "./Addplayer.module.css";
+import classes from "./Add.module.css";
 import { Link, useNavigate } from "react-router-dom";
 import toast from "react-hot-toast";
 
