@@ -1,0 +1,200 @@
+[{
+  "_id": 0,
+"date": "FRI, JUN 14 2024 ",
+  "event_name":  "ICC Mens T20 World Cup 2024 ",
+  "events": [{
+    "_id": 0,
+    "name": "United States vs Ireland, 30th Match, Group A ",
+    "place": "Central Broward Regional Park Stadium Turf Ground,  Lauderhill, Florida  ",
+    "time":  "02:30 PM GMT / 10:30 AM LOCAL"
+    },
+},
+ {
+  "_id": 1,
+"date": "SAT, JUN 15 2024 ",
+  "event_name":  "ICC Mens T20 World Cup Europe Qualifier A, 2024  ",
+  "events": [{
+    "_id": 0,
+    "name": "Austria vs Hungary, 18th Match, Group B  ",
+    "place": "Simar Cricket Ground,  Rome     ",
+    "time":  "  08:15 AM GMT / 10:15 AM LOCAL "
+    },
+    {
+    "_id": 1,
+    "name": "Isle of Man vs Luxembourg, 17th Match, Group A   ",
+    "place": " Roma Cricket Ground,  Rome         ",
+    "time":  "  08:15 AM GMT / 10:15 AM LOCAL   "
+    },
+    {
+    "_id": 2,
+    "name": "France vs Turkey, 19th Match, Group A   ",
+    "place": " Roma Cricket Ground,  Rome     ",
+    "time":  "  01:15 PM GMT / 03:15 PM LOCAL  "
+    },
+    {
+    "_id": 3,
+    "name": "Romania vs Israel, 20th Match, Group B  ",
+    "place": "Simar Cricket Ground,  Rome     ",
+    "time":  "  01:15 PM GMT / 03:15 PM LOCAL "
+    }]
+},
+    {
+  "_id": 2,
+"date": "SAT, JUN 15 2024 ",
+  "event_name":  "ICC Mens T20 World Cup 2024 ",
+  "events": [{
+    "_id": 0,
+    "name": "India vs Canada, 33rd Match, Group A  ",
+    "place": "Central Broward Regional Park Stadium Turf Ground,  Lauderhill, Florida    ",
+    "time":  "  02:30 PM GMT / 10:30 AM LOCAL "
+    },
+    {
+    "_id": 1,
+    "name": "Namibia vs England, 34th Match, Group B     ",
+    "place": "  Sir Vivian Richards Stadium,  North Sound, Antigua           ",
+    "time":  " 05:00 PM GMT / 01:00 PM LOCAL  "
+    },
+    {
+    "_id": 2,
+    "name": "New Zealand vs Uganda, 32nd Match, Group C  ",
+    "place": " Brian Lara Stadium,  Tarouba, Trinidad    ",
+    "time":  "  12:30 AM GMT (Jun 15) / 08:30 PM LOCAL  "
+    },
+    {
+    "_id": 3,
+    "name": "South Africa vs Nepal, 31st Match, Group D   ",
+    "place": "Arnos Vale Ground,  Kingstown, St Vincent      ",
+    "time":  "  11:30 PM GMT / 07:30 PM LOCAL "
+    }]
+},
+  {
+  "_id": 3,
+"date": "SUN, JUN 16 2024",
+  "event_name":  "ICC Mens T20 World Cup Europe Qualifier A, 2024",
+  "events": [{
+    "_id": 0,
+    "name": "TBC vs TBC, 7th Place Play-off    ",
+    "place": " Simar Cricket Ground,  Rome     ",
+    "time":  "  08:15 AM GMT / 10:15 AM LOCAL"
+    },
+    {
+    "_id": 1,
+    "name": "TBC vs TBC, 3rd Place Play-off   ",
+    "place": " Roma Cricket Ground,  Rome  ",
+    "time":  "08:15 AM GMT / 10:15 AM LOCAL "
+    },
+    {
+    "_id": 2,
+    "name": "TBC vs TBC, Final  ",
+    "place": "Roma Cricket Ground,  Rome   ",
+    "time":  " 01:15 PM GMT / 03:15 PM LOCAL  "
+    },
+    {
+    "_id": 3,
+    "name": "TBC vs TBC, 5th Place Play-off    ",
+    "place": "Simar Cricket Ground,  Rome   ",
+    "time":  "  01:15 PM GMT / 03:15 PM LOCAL"
+    }]
+},
+     {
+  "_id": 4,
+"date": "SUN, JUN 16 2024",
+  "event_name":  "ICC Mens T20 World Cup 2024",
+  "events": [{
+    "_id": 0,
+    "name": "Pakistan vs Ireland, 36th Match, Group A  ",
+    "place": " Central Broward Regional Park Stadium Turf Ground,  Lauderhill, Florida",
+    "time":  "  02:30 PM GMT / 10:30 AM LOCAL"
+    },
+    {
+    "_id": 1,
+    "name": "Australia vs Scotland, 35th Match, Group B   ",
+    "place": " Daren Sammy National Cricket Stadium,  Gros Islet, St Lucia ",
+    "time":   "12:30 AM GMT (Jun 16) / 08:30 PM LOCAL "
+    }
+   ]
+},
+     {
+  "_id": 5,
+"date": "MON, JUN 17 2024",
+  "event_name":  "Estonia tour of Cyprus 2024",
+  "events": [{
+    "_id": 0,
+    "name": "Cyprus vs Estonia, 1st T20I  ",
+    "place": " Happy Valley Ground,  Episkopi ",
+    "time":  "   05:30 AM GMT / 08:30 AM LOCAL "
+    },
+    {
+    "_id": 1,
+    "name": "Cyprus vs Estonia, 2nd T20I    ",
+    "place": "Happy Valley Ground,  Episkopi   ",
+    "time":   " 09:15 AM GMT / 12:15 PM LOCAL "
+    }
+   ]
+},
+      {
+  "_id":6,
+"date": "MON, JUN 17 2024",
+  "event_name":  "ICC Mens T20 World Cup 2024",
+  "events": [{
+    "_id": 0,
+    "name": "Sri Lanka vs Netherlands, 38th Match, Group D  ",
+    "place": " Daren Sammy National Cricket Stadium,  Gros Islet, St Lucia  ",
+    "time":  "  12:30 AM GMT (Jun 17) / 08:30 PM LOCAL "
+    },
+    {
+    "_id": 1,
+    "name": "Bangladesh vs Nepal, 37th Match, Group D  ",
+    "place": "Arnos Vale Ground,  Kingstown, St Vincent      ",
+    "time":   " 11:30 PM GMT / 07:30 PM LOCAL"
+    },
+    {
+    "_id": 2,
+    "name": "New Zealand vs Papua New Guinea, 39th Match, Group C  ",
+    "place": "Brian Lara Stadium,  Tarouba, Trinidad  ",
+    "time":   "  02:30 PM GMT / 10:30 AM LOCAL"
+    }
+   ]
+},
+     {
+  "_id":7,
+"date": "TUE, JUN 18 2024",
+  "event_name":  "ICC Mens T20 World Cup 2024",
+  "events": [{
+    "_id": 0,
+    "name": "West Indies vs Afghanistan, 40th Match, Group C  ",
+    "place": "  Daren Sammy National Cricket Stadium,  Gros Islet, St Lucia  ",
+    "time":  "  12:30 AM GMT (Jun 18) / 08:30 PM LOCAL "
+    },
+    {
+    "_id": 1,
+    "name": "Bangladesh vs Nepal, 37th Match, Group D  ",
+    "place": "Arnos Vale Ground,  Kingstown, St Vincent      ",
+    "time":   " 11:30 PM GMT / 07:30 PM LOCAL"
+    }
+
+   ]
+},
+    {
+  "_id":8,
+"date": "TUE, JUN 18 2024",
+  "event_name":  "Estonia tour of Cyprus 2024",
+  "events": [{
+    "_id": 0,
+    "name": " Cyprus vs Estonia, 3rd T20I   ",
+    "place": "   Happy Valley Ground,  Episkopi      ",
+    "time":  " 05:30 AM GMT / 08:30 AM LOCAL"
+    },
+    {
+    "_id": 1,
+    "name": "Cyprus vs Estonia, 4th T20I  ",
+    "place": " Happy Valley Ground,  Episkopi     ",
+    "time":   "  09:15 AM GMT / 12:15 PM LOCAL  "
+    }
+
+   ]
+}]
+
+
+
+

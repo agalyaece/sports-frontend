@@ -1,11 +1,10 @@
 /* eslint-disable react/no-unescaped-entities */
 
-
 import classes from "./Player.module.css"
-import AddPlayer from "./AddPlayer.jsx";
+
 import {Link} from "react-router-dom"
 
-import axios from "../axios.js";
+import axios from "../../axios.js";
 import { useEffect, useState } from "react";
 import toast from "react-hot-toast";
 
@@ -49,6 +48,7 @@ export default function Player() {
                         <th>Player Name</th>
                         <th>Runs Scored</th>
                         <th>Wickets Taken</th>
+                        <th>Matches Played</th>
                         <th>Edit</th>
                         <th>Delete</th>
                     </tr>
@@ -60,6 +60,7 @@ export default function Player() {
                             <td>{player.name}</td>
                             <td>{player.runs}</td>
                             <td>{player.wickets}</td>
+                            <td>{player.matches}</td>
                             <td> <Link to={`/player/updateplayer/${player._id}`} ><button className={classes.btngreen} >Edit</button></Link></td>
                             <td><button className={classes.btnred} onClick={() => handleDelete(player._id)}>Delete</button></td>
 

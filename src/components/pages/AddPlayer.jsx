@@ -1,5 +1,5 @@
 import { useState } from "react";
-import axios from "../axios.js";
+import axios from "../../axios.js";
 import classes from "./Add.module.css";
 import { Link, useNavigate } from "react-router-dom";
 import toast from "react-hot-toast";
@@ -14,7 +14,8 @@ function AddPlayer() {
     const players = {
         name: "",
         runs: "",
-        wickets: ""
+        wickets: "",
+        matches: "",
     }
     const [player, setPlayer] = useState(players);
 
@@ -71,6 +72,15 @@ function AddPlayer() {
                         placeholder="Wickets Taken"
                         type="text"
                         name="wickets"
+                        onChange={handleInput}
+                        required />
+                </div>
+                <div className={classes.inputGroup}>
+                    <label htmlFor="matches">Matches Played</label>
+                    <input
+                        placeholder="Matches Played"
+                        type="text"
+                        name="Matches Played"
                         onChange={handleInput}
                         required />
                 </div>

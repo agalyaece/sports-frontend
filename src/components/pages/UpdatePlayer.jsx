@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import classes from "./Add.module.css";
 import { Link, useParams, useNavigate } from "react-router-dom";
-import axios from "../axios.js";
+import axios from "../../axios.js";
 import toast from "react-hot-toast";
 
 export default function UpdatePlayer() {
@@ -74,6 +74,15 @@ export default function UpdatePlayer() {
                         name="wickets"
                         onChange={handleUpdateInput}
                         value={player.wickets}
+                        required />
+                </div>
+                <div className={classes.inputGroup}>
+                    <label htmlFor="matches">Matches Played</label>
+                    <input
+                        type="text"
+                        name="matches"
+                        onChange={handleUpdateInput}
+                        value={player.matches}
                         required />
                 </div>
                 <div className={classes.submitdiv}>

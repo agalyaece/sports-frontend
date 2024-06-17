@@ -1,12 +1,19 @@
 import { Routes, Route } from "react-router-dom";
-import Home from "./components/Home";
-import AddPlayer from "./components/AddPlayer";
+import Home from "./components/pages/Home";
+import AddPlayer from "./components/pages/AddPlayer";
 import "./App.css";
-import Player from "./components/Player";
-import Navbar from "./components/NavBar";
+import Player from "./components/pages/Player";
+import Navbar from "./components/Navbar/NavBar";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
-import UpdatePlayer from "./components/UpdatePlayer";
+import UpdatePlayer from "./components/pages/UpdatePlayer";
+import Teams from "./components/pages/teams/Teams";
+import WomensTeam from "./components/pages/teams/DomesticTeam";
+import InternationalTeam from "./components/pages/teams/DomesticTeam";
+import TeamSchedule from "./components/pages/schedule/TeamSchedule";
+import DomesticTeam from "./components/pages/teams/DomesticTeam";
+import LeagueTeam from "./components/pages/teams/LeagueTeam";
+import InternationalSchedule from "./components/pages/schedule/InternationalSchedule";
 function App() {
 
 
@@ -20,6 +27,14 @@ function App() {
         <Route path="/player" element={<Player />} />
         <Route path="/player/addplayer" element={<AddPlayer />} />
         <Route path="/player/updateplayer/:id" element={<UpdatePlayer />} />
+        <Route path="/teams" element={<Teams />} />
+        <Route path="/teams/women" element={<WomensTeam/>} />
+        <Route path="/teams/international" element={<InternationalTeam />} />
+        <Route path="/teams/domestic" element={<DomesticTeam />} />
+        <Route path="/teams/league" element={<LeagueTeam />} />
+        <Route path="/schedule" element={<TeamSchedule/>} />
+        <Route path="/schedule/international" element={<InternationalSchedule />} />
+
       </Routes>
       <Footer />
     </div>

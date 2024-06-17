@@ -1,0 +1,128 @@
+[{
+   "_id": 0,
+"date": "SAT, JUN 15 2024 ",
+  "event_name":  "West Indies Women tour of Sri Lanka, 2024 ",
+  "events": [{
+    "_id": 0,
+    "name": "Sri Lanka Women vs West Indies Women, 1st ODI (ICC Championship Match) ",
+    "place": "Galle International Stadium,  Galle   ",
+    "time":  " 04:30 AM GMT / 10:00 AM LOCAL   "
+    }]
+},
+    {
+   "_id": 1,
+"date": "SUN, JUN 16 2024  ",
+  "event_name":  "South Africa Women tour of India, 2024  ",
+  "events": [{
+    "_id": 0,
+    "name": "India Women vs South Africa Women, 1st ODI  ",
+    "place": "M.Chinnaswamy Stadium,  Bengaluru   ",
+    "time":  " 08:00 AM GMT / 01:30 PM LOCAL    "
+    }]
+},
+  {
+   "_id": 2,
+"date": "MON, JUN 17 2024  ",
+  "event_name":  "Estonia Women tour of Cyprus 2024  ",
+  "events": [{
+    "_id": 0,
+    "name": "Cyprus Women vs Estonia Women, 1st T20I ",
+    "place": " Happy Valley Ground 2,  Episkopi    ",
+    "time":  " 05:30 AM GMT / 08:30 AM LOCAL    "
+    },
+  {
+    "_id": 2,
+    "name": "Cyprus Women vs Estonia Women, 2nd T20I ",
+    "place": " Happy Valley Ground 2,  Episkopi  ",
+    "time":  "  01:00 PM GMT / 04:00 PM LOCAL     "
+    }]
+},
+  {
+   "_id": 3,
+"date": "MON, JUN 17 2024  ",
+  "event_name":  "Hong Kong Women tour of Netherlands, 2024 ",
+  "events": [{
+    "_id": 0,
+    "name": "Netherlands Women vs Hong Kong Women, 1st T20I ",
+    "place": "  Sportpark Maarschalkerweerd,  Utrecht   ",
+    "time":  " 12:00 PM GMT / 02:00 PM LOCAL    "
+    }]
+},
+  {
+   "_id": 3,
+"date": "TUE, JUN 18 2024 ",
+  "event_name":  "Cyprus Women vs Estonia Women, 4th T20I ",
+  "events": [{
+    "_id": 0,
+    "name": "Cyprus Women vs Estonia Women, 3rd T20I  ",
+    "place": " Happy Valley Ground 2,  Episkopi    ",
+    "time":  " 05:30 AM GMT / 08:30 AM LOCAL    "
+    },
+  {
+    "_id": 2,
+    "name": "Cyprus Women vs Estonia Women, 2nd T20I ",
+    "place": "  Happy Valley Ground 2,  Episkopi   ",
+    "time":  "  01:00 PM GMT / 04:00 PM LOCAL     "
+    }]
+},
+   {
+   "_id": 4,
+"date": "WED, JUN 19 2024",
+  "event_name":  "Estonia Women tour of Cyprus 2024",
+  "events": [{
+    "_id": 0,
+    "name": "Cyprus Women vs Estonia Women, 5th T20I  ",
+    "place": " Happy Valley Ground 2,  Episkopi    ",
+    "time":  " 05:30 AM GMT / 08:30 AM LOCAL    "
+    },
+  {
+    "_id": 2,
+    "name": "Cyprus Women vs Estonia Women, 6th T20I  ",
+    "place": "  Happy Valley Ground 2,  Episkopi   ",
+    "time":  "  01:00 PM GMT / 04:00 PM LOCAL     "
+    }]
+},
+  {
+   "_id": 5,
+"date": "WED, JUN 19 2024",
+  "event_name":  "Hong Kong Women tour of Netherlands, 2024",
+  "events": [{
+    "_id": 0,
+    "name": "Netherlands Women vs Hong Kong Women, 3rd T20I ",
+    "place": "    Sportpark Maarschalkerweerd,  Utrecht  ",
+    "time":  " 09:00 AM GMT / 11:00 AM LOCAL   "
+    },
+  {
+    "_id": 2,
+    "name": "Netherlands Women vs Hong Kong Women, 4th T20I   ",
+    "place": "  Sportpark Maarschalkerweerd,  Utrecht    ",
+    "time":  " 01:00 PM GMT / 03:00 PM LOCAL  "
+    }]
+}
+]
+
+
+
+
+
+
+
+
+
+
+
+
+
+West Indies Women tour of Sri Lanka, 2024
+Sri Lanka Women vs West Indies Women, 2nd ODI (ICC Championship Match)     Galle International Stadium,  Galle       04:30 AM GMT / 10:00 AM LOCAL
+Hong Kong Women tour of Netherlands, 2024
+Netherlands Women vs Hong Kong Women, 2nd T20I     Sportpark Maarschalkerweerd,  Utrecht       12:00 PM GMT / 02:00 PM LOCAL
+
+
+
+
+South Africa Women tour of India, 2024
+India Women vs South Africa Women, 2nd ODI     M.Chinnaswamy Stadium,  Bengaluru       08:00 AM GMT / 01:30 PM LOCAL
+
+
+
