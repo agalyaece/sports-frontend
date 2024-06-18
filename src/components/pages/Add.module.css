@@ -11,10 +11,7 @@
   margin-top: 20px;
 }
 
-span{
-  margin-bottom: 20px;
-  color: red;
-}
+
 .addUserForm .inputGroup {
   width: 100%;
   display: flex;
