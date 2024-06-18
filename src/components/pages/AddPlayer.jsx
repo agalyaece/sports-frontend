@@ -18,7 +18,7 @@ function AddPlayer() {
         matches: "",
     }
     const [player, setPlayer] = useState(players);
-    // const [errors, setErrors] = useState({})
+    const [errors, setErrors] = useState({})
 
     const handleAddPlayer = (event) => {
         event.preventDefault();
@@ -43,10 +43,10 @@ function AddPlayer() {
         //     validationErrors.wickets = "wickets not Valid!"
         // }
 
-        // if (!FormData.MatchesPlayed) {
-        //     validationErrors.MatchesPlayed = "Matches Played is Required!"
-        // } else if (! /^[0-9\b]+$/.test(FormData.MatchesPlayed)) {
-        //     validationErrors.MatchesPlayed = "Matches Played is not Valid! enter number input"
+        // if (!FormData.matches) {
+        //     validationErrors.matches = "Matches Played is Required!"
+        // } else if (! /^[0-9\b]+$/.test(FormData.matches)) {
+        //     validationErrors.matches = "Matches Played is not Valid! enter number input"
         // }
 
         // setErrors(validationErrors)
@@ -85,6 +85,7 @@ function AddPlayer() {
                         placeholder="Name of Player"
                         type="text"
                         name="name"
+                        // value={FormData.name}
                         onChange={handleInput}
                         required
                     />
@@ -100,6 +101,7 @@ function AddPlayer() {
                         min={0} step={1}
                         autoComplete="off"
                         name="runs"
+                        // value={FormData.runs}
                         onChange={handleInput}
                         required
                     />
@@ -115,6 +117,7 @@ function AddPlayer() {
                         pattern="^[0-9\b]+$"
                         min={0} step={1}
                         autoComplete="off"
+                        // value={FormData.wickets}
                         onChange={handleInput}
                         required
                     />
@@ -129,6 +132,7 @@ function AddPlayer() {
                         pattern="^[0-9\b]+$"
                         min={0} step={1}
                         autoComplete="off"
+                        // value={FormData.matches}
                         onChange={handleInput}
                         required
                     />
