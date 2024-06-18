@@ -129,7 +129,7 @@ function AddPlayer() {
                         placeholder="Matches Played"
                         type="number"
                         name="matches"
-                        pattern="^[0-9\b]+$"
+                        // pattern="^[0-9\b]+$"
                         min={0} step={1}
                         autoComplete="off"
                         // value={FormData.matches}
