@@ -60,7 +60,10 @@ export default function UpdatePlayer() {
                 <div className={classes.inputGroup}>
                     <label htmlFor="runs">Runs Scored</label>
                     <input
-                        type="text"
+                        type="number"
+                        pattern="^[0-9\b]+$"
+                        min={0} step={1}
+                        autoComplete="off"
                         name="runs"
                         onChange={handleUpdateInput}
                         value={player.runs}
@@ -70,7 +73,10 @@ export default function UpdatePlayer() {
                 <div className={classes.inputGroup}>
                     <label htmlFor="wickets">Wickets Taken</label>
                     <input
-                        type="text"
+                        type="number"
+                        pattern="^[0-9\b]+$"
+                        min={0} step={1}
+                        autoComplete="off"
                         name="wickets"
                         onChange={handleUpdateInput}
                         value={player.wickets}
@@ -79,7 +85,10 @@ export default function UpdatePlayer() {
                 <div className={classes.inputGroup}>
                     <label htmlFor="matches">Matches Played</label>
                     <input
-                        type="text"
+                        type="number"
+                        pattern="^[0-9\b]+$"
+                        min={0} step={1}
+                        autoComplete="off"
                         name="matches"
                         onChange={handleUpdateInput}
                         value={player.matches}
