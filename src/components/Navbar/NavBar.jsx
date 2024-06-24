@@ -17,16 +17,20 @@ export default function Navbar() {
                 <span></span>
             </div>
 
-            <ul className={menuOpen ? `${classes.open}` : undefined}>
+            <ul className={ menuOpen ? `${classes.open}` : undefined}>
                 <li>
-                    <NavLink to="/player">Players</NavLink>
+                    <NavLink to="/player" className={({isActive}) => isActive? classes.active : undefined }>Players</NavLink>
                 </li>
                 <li>
-                    <NavLink to="/teams">Teams</NavLink>
+                    <NavLink to="/teams" className={({isActive}) => isActive? classes.active : undefined }>Teams</NavLink>
                 </li>
                 
                 <li>
-                    <NavLink to="/schedule">Schedule</NavLink>
+                    <NavLink to="/schedule" className={({isActive}) => isActive? classes.active : undefined }>Tournaments</NavLink>
+                </li>
+
+                <li>
+                    <NavLink to="/t20WorldCup/teams" className={({isActive}) => isActive? classes.active : undefined }>T20 World Cup 2024</NavLink>
                 </li>
                
             </ul>

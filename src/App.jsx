@@ -14,6 +14,9 @@ import TeamSchedule from "./components/pages/schedule/TeamSchedule";
 import DomesticTeam from "./components/pages/teams/DomesticTeam";
 import LeagueTeam from "./components/pages/teams/LeagueTeam";
 import InternationalSchedule from "./components/pages/schedule/InternationalSchedule";
+import T20Teams from "./components/pages/t20/T20Teams";
+import TeamPlayerPage from "./components/pages/t20/TeamPlayerPage";
+
 function App() {
 
 
@@ -34,6 +37,8 @@ function App() {
         <Route path="/teams/league" element={<LeagueTeam />} />
         <Route path="/schedule" element={<TeamSchedule/>} />
         <Route path="/schedule/international" element={<InternationalSchedule />} />
+        <Route path="/t20WorldCup/teams" element={<T20Teams />} />
+        <Route path="/t20WorldCup/teams/:country" element={<TeamPlayerPage />} />
 
       </Routes>
       <Footer />

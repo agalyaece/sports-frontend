@@ -1,0 +1,69 @@
+* {
+  font-family: helvetica, Segoe UI, Arial, sans-serif;
+}
+body {
+  background-color: #e3e6e3;
+}
+
+.containerschedule {
+  width: 100%;
+  margin: auto;
+  background-color: white;
+}
+
+h2{
+  margin: 20px;
+}
+.tours {
+  display: grid;
+  grid-template-columns: repeat(3, 33%);
+  grid-template-rows: 1;
+  font-size: 20px;
+  font-weight: 400;
+  margin-right: 45px;
+  margin-bottom: 50px;
+  margin-top: 20px;
+  padding-left: 15px;
+  border-bottom: #444a48;
+  border-color: #444a48;
+}
+Link {
+  color: black;
+}
+.cardgroup {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr 2fr);
+  justify-items: normal;
+  outline: solid;
+  outline-width: 0.5px;
+  outline-color: rgb(205, 204, 204);
+  border-radius: 10px;
+  color: black;
+  margin: 2px;
+}
+
+img {
+  width: 72px;
+  height: 54px;
+  margin: 5px;
+}
+
+.cardBody {
+  display: flex;
+  flex-direction: column;
+}
+
+.container p {
+  /* margin-left: 40%;
+    margin-top: 50%; */
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 100;
+  line-height: 1.5;
+}
+@media (max-width: 480px) {
+  .tours {
+    display: flex;
+    flex-direction: column;
+  }
+}

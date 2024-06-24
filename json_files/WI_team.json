@@ -1,0 +1,737 @@
+[{
+ "Papua New Guinea": [
+  {
+   "id": 0,
+   "name": "Tony Ura",
+   "runs": 2,
+   "wickets": "-"
+  },
+  {
+   "id": 1,
+   "name": "Assad Vala(c)",
+   "runs": 21,
+   "wickets": "2"
+  },
+  {
+   "id": 2,
+   "name": "Lega Siaka",
+   "runs": 1,
+   "wickets": "-"
+  },
+  {
+   "id": 3,
+   "name": "Sese Bau",
+   "runs": 50,
+   "wickets": "0"
+  },
+  {
+   "id": 4,
+   "name": "Hiri Hiri",
+   "runs": 2,
+   "wickets": "-"
+  },
+  {
+   "id": 5,
+   "name": "Charles Amini",
+   "runs": 12,
+   "wickets": "0"},
+  {
+   "id": 6,
+   "name": "Kiplin Doriga",
+   "runs": 27,
+   "wickets": "-"
+  },
+  {
+   "id": 7,
+   "name": "Chad Soper",
+   "runs": 10,
+   "wickets": "1"
+  },
+  {
+   "id": 8,
+   "name": "Alei Nao",
+   "runs": 0,
+   "wickets": "1"
+  },
+  {
+   "id": 9,
+   "name": "Kabua Morea",
+   "runs": 2,
+   "wickets": "0"
+  },
+  {
+   "id": 10,
+   "name": "John Kariko",
+   "runs": 0,
+   "wickets": "1"
+  }
+ ]
+},
+{
+"West Indies": [
+{"id": 0, "name": "Brandon King", "runs": 34, "wickets": "-"
+},
+{
+"id": 1, "name": "Johnson Charles", "runs": 0, "wickets": "-"
+},
+{
+"id": 2, "name": "Nicholas Pooran", "runs": 27, "wickets": "-"
+},
+{
+"id": 3, "name": "Roston Chase", "runs": 42,  "wickets": "-"},
+{
+"id": 4, "name": "Rovman Powell(c)", "runs": 15,  "wickets": "-"},
+{"id": 5, "name": "Sherfane Rutherford", "runs": 2, "wickets": "-"
+},
+{
+"id": 6, "name": "Andre Russell", "runs": 15, "wickets": "2"
+},
+{
+"id": 7, "name": "Romario Shepherd", "runs": 0, "wickets": "1"
+},
+{
+"id": 8, "name": "Akeal Hosein", "runs": 0, "wickets": "1"},
+{
+"id": 9, "name": "Alzarri Joseph", "runs": 0, "wickets": "2"},
+{"id": 10, "name": "Gudakesh Motie", "runs": 0, "wickets": "1"}
+]
+},
+
+{
+ "Oman": [
+  {
+   "id": 0,
+   "name": "Kashyap Prajapati",
+   "runs": 0,
+   "wickets": "-"
+  },
+  {
+   "id": 1,
+   "name": "Naseem Khushi",
+   "runs": 6,
+   "wickets": "-"
+  },
+  {
+   "id": 2,
+   "name": "Aqib Ilyas(c)",
+   "runs": 0,
+   "wickets": "1"
+  },
+  {
+   "id": 3,
+   "name": "Zeeshan Maqsood",
+   "runs": 22,
+   "wickets": "0"
+  },
+  {
+   "id": 4,
+   "name": "Khalid Kail",
+   "runs": 34,
+   "wickets": "-"
+  },
+  {
+   "id": 5,
+   "name": "Ayaan Khan",
+   "runs": 15,
+   "wickets": "1"
+  },
+  {
+   "id": 6,
+   "name": "Mohammad Nadeem",
+   "runs": 6,
+   "wickets": ""
+  },
+  {
+   "id": 7,
+   "name": "Mehran Khan",
+   "runs":7,
+   "wickets": "3-"
+  },
+  {
+   "id": 8,
+   "name": "Shakeel Ahmed",
+   "runs": 11,
+   "wickets": "0"
+  },
+  {
+   "id":9,
+   "name": "Kaleemullah",
+   "runs": 2,
+   "wickets": "0"
+  },
+  {
+   "id": 10,
+   "name": "Bilal Khan",
+   "runs": 1,
+   "wickets": "1"
+  }
+ ]
+},
+ {
+  "Namibia": [
+   {
+    "id": 0,
+    "name": "Michael van Lingen",
+    "runs": 0,
+    "wickets": "-"
+   },
+   {
+    "id": 1,
+    "name": "Nikolaas Davin",
+    "runs": 24,
+    "wickets": "-"
+   },
+   {
+    "id":2 ,
+    "name": "Jan Frylinck",
+    "runs": 45,
+    "wickets": "-"
+   },
+   {
+    "id":3 ,
+    "name": "Gerhard Erasmus(c)",
+    "runs": 13,
+    "wickets": "2-"
+   },
+   {
+    "id": 4,
+    "name": "JJ Smit",
+    "runs": 8,
+    "wickets": "-"
+   },
+   {
+    "id": 5,
+    "name": "David Wiese",
+    "runs": 9,
+    "wickets": "3"
+   },
+   {
+    "id":6 ,
+    "name": "Zane Green",
+    "runs": 0,
+    "wickets": "-"
+   },
+   {
+    "id":7 ,
+    "name": "Malan Kruger",
+    "runs": 1,
+    "wickets": "-"
+   },
+   {
+    "id":8 ,
+    "name": "Ruben Trumpelmann",
+    "runs": 9,
+    "wickets": "4"
+   },
+   {
+    "id": 9,
+    "name": "Bernard Scholtz",
+    "runs": 0,
+    "wickets": "1"
+   },
+   {
+    "id":10 ,
+    "name": "Tangeni Lungameni",
+    "runs": 0,
+    "wickets": "0"
+   }
+  ]
+ },
+
+{
+ "Sri Lanka": [
+  {
+   "id": 0,
+   "name": "Pathum Nissanka",
+   "runs": 3,
+   "wickets": "-"
+  },
+  {
+   "id": 1,
+   "name": "Kusal Mendis",
+   "runs": 19,
+   "wickets": "-"
+  },
+  {
+   "id": 2,
+   "name": "Kamindu Mendis",
+   "runs": 11,
+   "wickets": "-"
+  },
+  {
+   "id": 3,
+   "name": "Wanindu Hasaranga(c)",
+   "runs": 0,
+   "wickets": "2"
+  },
+  {
+   "id": 4,
+   "name": "Sadeera Samarawickrama",
+   "runs": 0,
+   "wickets": "-"
+  },
+  {
+   "id": 5,
+   "name": "Charith Asalanka",
+   "runs": 6,
+   "wickets": "-"
+  },
+  {
+   "id": 6,
+   "name": "Angelo Mathews",
+   "runs": 16,
+   "wickets": "0"
+  },
+  {
+   "id": 7,
+   "name": "Dasun Shanaka",
+   "runs": 9,
+   "wickets": "1"
+  },
+  {
+   "id": 8,
+   "name": "Maheesh Theekshana",
+   "runs": 7,
+   "wickets": "-"
+  },
+  {
+   "id": 9,
+   "name": "Matheesha Pathirana",
+   "runs": 0,
+   "wickets": "0"
+  },
+  {
+   "id": 10,
+   "name": "Nuwan Thushara",
+   "runs": 0,
+   "wickets": "1"
+  }
+ ]
+},
+
+ {
+  "South Africa": [
+   {
+    "id": 0,
+    "name": "Quinton de Kock",
+    "runs": 20,
+    "wickets": "-"
+   },
+   {
+    "id": 1,
+    "name": "Reeza Hendricks",
+    "runs": 4,
+    "wickets": "-"
+   },
+   {
+    "id": 2,
+    "name": "Aiden Markram(c)",
+    "runs": 12,
+    "wickets": "-"
+   },
+   {
+    "id": 4,
+    "name": "Tristan Stubbs",
+    "runs": 13,
+    "wickets": "-"
+   },
+   {
+    "id": 5,
+    "name": "Heinrich Klaasen",
+    "runs": 19,
+    "wickets": "-"
+   },
+   {
+    "id": 6,
+    "name": "David Miller",
+    "runs": 6,
+    "wickets": "-"
+   },
+   {
+    "id": 7,
+    "name": "Marco Jansen,",
+    "runs": 0,
+    "wickets": "0"
+   },
+   {
+    "id": 8,
+    "name": "Keshav Maharaj,",
+    "runs": 0,
+    "wickets": "2"
+   },
+   {
+    "id": 9,
+    "name": "Kagiso Rabada,",
+    "runs": 0,
+    "wickets": "2"
+   },
+   {
+    "id": 10,
+    "name": "Anrich Nortje,",
+    "runs": 0,
+    "wickets": "4-"
+   },
+   {
+    "id": 11,
+    "name": "Ottneil Baartman",
+    "runs": 0,
+    "wickets": "1"
+   }
+  ]
+ }]
+
+{
+ "Afghanistan": [
+  {
+   "id": 0,
+   "name": "Rahmanullah Gurbaz",
+   "runs": 76,
+   "wickets": "-"
+  },
+  {
+   "id": 1,
+   "name": "Ibrahim Zadran",
+   "runs": 70,
+   "wickets": "-"
+  },
+  {
+   "id": 2,
+   "name": "Najibullah Zadran",
+   "runs": 2,
+   "wickets": "-"
+  },
+  {
+   "id": 3,
+   "name": "Mohammad Nabi",
+   "runs": 14,
+   "wickets": "0"
+  },
+  {
+   "id": 4,
+   "name": "Gulbadin Naib",
+   "runs": 4,
+   "wickets": "-"
+  },
+  {
+   "id": 5,
+   "name": "Azmatullah Omarzai",
+   "runs": 5,
+   "wickets": "0"
+  },
+  {
+   "id": 6,
+   "name": "Rashid Khan(c)",
+   "runs": 2,
+   "wickets": "2"
+  },
+  {
+   "id": 7,
+   "name": "Karim Janat",
+   "runs": 0,
+   "wickets": "-"
+  },
+  {
+   "id": 8,
+   "name": "Mujeeb Ur Rahman,",
+   "runs": 0,
+   "wickets": "1"
+  },
+  {
+   "id": 9,
+   "name": "Naveen-ul-Haq",
+   "runs": 0,
+   "wickets": "2"
+  },
+  {
+   "id": 10,
+   "name": "Fazalhaq Farooqi",
+   "runs": 0,
+   "wickets": "5"
+  }
+ ]
+},
+
+
+{"Uganda":[
+{"id": 0, "name": "Ronak Patel", "runs": 4, "wickets": "-"
+},
+{
+"id": 1, "name": "Simon Ssesazi", "runs": 4, "wickets": "-"
+},
+{
+"id": 2, "name": "Roger Mukasa", "runs": 0, "wickets": "-"
+},
+{
+"id": 3, "name": "Riazat Ali Shah", "runs": 11, "wickets": "0"},
+{
+"id": 4, "name": "Dinesh Nakrani", "runs": 6, "wickets": "0"},
+{"id": 5, "name": "Alpesh Ramjani", "runs": 0, "wickets": "1"
+},
+{
+"id": 6, "name": "Robinson Obuya", "runs": 14, "wickets": "-"
+},
+{
+"id": 7, "name": "Brian Masaba(c)", "runs": 0, "wickets": "2"
+},
+{
+"id": 8, "name": "Bilal Hassan", "runs": 8, "wickets": "0"},
+{
+"id": 9, "name": "Cosmas Kyewuta", "runs": 2, "wickets": "2"},
+{"id": 10, "name": "Henry Ssenyondo", "runs": 0, "wickets": "0"}
+]
+}
+
+
+[
+{"Nepal": [
+{"id": 0, "name": "Kushal Bhurtel", "runs": 7, "wickets": "-"
+},
+{
+"id": 1, "name": "Aasif Sheikh", "runs": 4 , "wickets": "-"},
+{"id": 2, "name": "Anil Sah", "runs": 11, "wickets": "-"
+},
+{
+"id": 3, "name": "Rohit Paudel(c)", "runs": 35, "wickets": "-"},
+{
+"id": 4, "name": "Kushal Malla", "runs": 9, "wickets": "-"},
+{"id": 5, "name": "Dipendra Singh Airee", "runs": 1, "wickets": "1"
+},
+{
+"id": 6, "name": "Sompal Kami", "runs": 0 , "wickets": "1"},
+{"id": 7, "name": "Gulsan Jha", "runs": 14, "wickets": "0"
+},
+{
+"id": 8, "name": "Karan KC", "runs": 17, "wickets": "0"},
+{
+"id": 9, "name": "Sagar Dhakal", "runs": 0, "wickets": "0"},
+{"id": 10, "name": "Abinash Bohara", "runs": 0, "wickets": "1"}
+]},
+{
+"Netherlands":[
+{"id": 1, "name": "Michael Levitt", "runs": 1, "wickets": "-"
+},
+{
+"id": 2, "name": "Max O'Dowd", "runs": 54 , "wickets": "-"},
+{"id": 3, "name": "Vikramjit Singh", "runs": 22, "wickets": "-"
+},
+{
+"id": 4, "name": "Sybrand Engelbrecht", "runs": 14, "wickets": "-"},
+{
+"id": 5, "name": "Scott Edwards(c)", "runs": 5, "wickets": "-"},
+{"id": 6, "name": "Bas de Leede", "runs": 11, "wickets": "2"
+},
+{
+"id": 7, "name": "Teja Nidamanuru", "runs": 0 , "wickets": "-"},
+{"id": 8, "name": "Logan van Beek", "runs": 0, "wickets": "3"
+},
+{
+"id": 9, "name": "Tim Pringle", "runs": 0, "wickets": "3"},
+{
+"id": 10, "name": "Paul van Meekeren", "runs": 0, "wickets": "2"},
+{"id": 11, "name": "Vivian Kingma", "runs": 0, "wickets": "0"}
+]}]
+{"Ireland":[
+{"id": 0, "name": "Andy Balbirnie", "runs": 5, "wickets": "-"
+},
+{
+"id": 1, "name": "Paul Stirling(c)", "runs": 2, "wickets": "-"
+},
+{
+"id": 2 , "name": "Lorcan Tucker", "runs": 10, "wickets": "-"
+},
+{
+"id": 3, "name": "Harry Tector", "runs": 4, "wickets": "-"},
+{
+"id": 4, "name": "Curtis Campher", "runs": 12, "wickets": "0"},
+{"id": 5, "name": "George Dockrell", "runs": 3, "wickets": "-"
+},
+{
+"id": 6, "name": "Gareth Delany", "runs": 26, "wickets": "-"
+},
+{
+"id": 7 , "name": "Mark Adair", "runs": 3, "wickets": "1"
+},
+{
+"id": 8, "name": "Barry McCarthy", "runs": 0, "wickets": "0"},
+{
+"id": 9, "name": "Josh Little", "runs": 14, "wickets": "0"},
+{"id": 10, "name": "Ben White", "runs": 2, "wickets": "1"}
+]},
+{"India":[
+{
+"id": 1, "name": "Rohit Sharma(c)", "runs": 52, "wickets": "-"},
+{
+"id": 2, "name": "Virat Kohli", "runs": 1, "wickets": "-"},
+{"id": 3, "name": "Rishabh Pant", "runs": 36, "wickets": "-"},
+{"id":4, "name": "Suryakumar Yadav", "runs": 2, "wickets": "-"},
+{"id": 5, "name": "Shivam Dube", "runs": 0, "wickets": "-"},
+{"id": 6, "name": "Hardik Pandya", "runs": 0, "wickets": "3"}, 1
+{
+"id": 7, "name": "Ravindra Jadeja", "runs": 0, "wickets": "0"},
+{"id": 8, "name": "Axar Patel", "runs": 0, "wickets": "1"
+},
+{
+"id": 9, "name": "Jasprit Bumrah", "runs": 0, "wickets": "2"
+},
+{
+"id": 10 , "name": "Arshdeep Singh", "runs": 0, "wickets": "2"
+},
+{
+"id": 11, "name": "Mohammed Siraj", "runs": 0, "wickets": "1"
+}]
+}]
+
+{"Australia":[
+{"id": 0, "name": "David Warner", "runs": 56, "wickets": "-"
+},
+{
+"id": 1, "name": "Travis Head", "runs": 12 , "wickets": "-"},
+{"id": 2, "name": "Mitchell Marsh(c)", "runs": 14, "wickets": "-"
+},
+{
+"id": 3, "name": "Glenn Maxwell", "runs": 0, "wickets": "0"},
+{
+"id": 4, "name": "Marcus Stoinis", "runs": 67, "wickets": "3"},
+{"id": 5, "name": "Tim David", "runs"9, "wickets": "-"
+},
+{
+"id": 6, "name": "Matthew Wade", "runs": 0, "wickets": "-"},
+{"id": 7, "name": "Mitchell Starc", "runs": 0, "wickets": "2"},
+{"id": 8, "name": "Nathan Ellis", "runs": 0, "wickets": "2"},
+{
+"id": 9, "name": "Adam Zampa", "runs": 0, "wickets": "2"},
+{"id": 10, "name": "Josh Hazlewood", "runs":0, "wickets": "0"}
+]
+}
+{"Pakistan": [
+{"id": 0, "name": "Mohammad Rizwan", "runs": 9, "wickets": ""
+},
+{
+"id": 1, "name": "Babar Azam(c)", "runs": 44, "wickets": ""
+},
+{
+"id": 2, "name": "Usman Khan", "runs": 3, "wickets": ""
+},
+{
+"id": 3, "name": "Fakhar Zaman", "runs": 11, "wickets": ""},
+{
+"id": 4, "name": "Shadab Khan", "runs": 40, "wickets": ""},
+{"id": 5, "name": "Azam Khan", "runs": 0, "wickets": ""
+},
+{
+"id": 6, "name": "Iftikhar Ahmed", "runs": 18 , "wickets": ""},
+{"id": 7, "name": "Shaheen Shah Afridi", "runs": 23, "wickets": ""
+},
+{
+"id": 8, "name": "Haris Rauf", "runs": 3, "wickets": ""},
+{
+"id": 9, "name": "Naseem Shah", "runs": 0, "wickets": ""},
+{"id": 10, "name": "Mohammad Amir", "runs": 0, "wickets": ""}
+]
+}
+
+{"New Zealand ": [
+{"id": 0, "name": "Finn Allen", "runs": 0, "wickets": "-"
+},
+{
+"id": 1, "name": "Devon Conway", "runs": 35, "wickets": "-"
+},
+{
+"id": 2  , "name": "Rachin Ravindra", "runs": 6, "wickets": "-"
+},
+{
+"id": 3, "name": "Kane Williamson(c)", "runs": 18, "wickets": "-"},
+{
+"id": 4, "name": "Daryl Mitchell", "runs": 19, "wickets": "-"},
+{"id": 5, "name": "Glenn Phillips", "runs": 0, "wickets": "-"
+},
+{
+"id": 6, "name": "Ish Sodhi", "runs": 0, "wickets": "2"
+},
+{
+"id": 7, "name": "Mitchell Santner", "runs": 0, "wickets": "1"
+},
+{
+"id": 8, "name": "Tim Southee", "runs": 0, "wickets": "2"},
+{
+"id": 9, "name": "Lockie Ferguson", "runs": 0, "wickets": "3"},
+{"id": 10, "name": "Trent Boult", "runs": 0, "wickets": "2"}
+]
+}
+
+{"Scotland":[
+{"id": 0, "name": "George Munsey", "runs": 35, "wickets": "-"
+},
+{
+"id": 1, "name": "Michael Jones", "runs": 2, "wickets": "-"
+},
+{
+"id": 2, "name": "Brandon McMullen", "runs": 60, "wickets": "-"
+},
+{
+"id": 3, "name": "Richie Berrington(c)", "runs": 42, "wickets": "-"},
+{
+"id": 4, "name": "Matthew Cross", "runs": 18, "wickets": "-"},
+{"id": 5, "name": "Michael Leask", "runs": 5, "wickets": "0"
+},
+{
+"id": 6, "name": "Chris Greaves", "runs": 9 , "wickets": "0"},
+{"id": 7, "name": "Mark Watt", "runs": 0, "wickets": "2"
+},
+{
+"id": 8, "name": "Chris Sole", "runs": 0, "wickets": "0"},
+{
+"id": 9, "name": "Brad Wheal", "runs": 0, "wickets": "1"},
+{"id": 10, "name": "Safyaan Sharif", "runs": 0, "wickets": "2"}
+]
+}
+
+{"England":[
+{"id": 0, "name": "Phil Salt", "runs": 11, "wickets": "-"
+},
+{
+"id": 1, "name": "Jos Buttler(c)", "runs": 0  , "wickets": "-"},
+{"id": 2 , "name": "Jonny Bairstow", "runs": 31, "wickets": "-"
+},
+{
+"id": 3, "name": "Harry Brook", "runs": 47, "wickets": "-"},
+{
+"id": 4, "name": "Moeen Ali", "runs": 16, "wickets": "-"},
+{"id": 5, "name": "Liam Livingstone", "runs": 13, "wickets": "-"
+},
+{
+"id": 6, "name": "Sam Curran", "runs": 0 , "wickets": "0"},
+{"id": 7, "name": "Jofra Archer", "runs": 0, "wickets": "1"
+},
+{
+"id": 8, "name": "Adil Rashid", "runs": 0, "wickets": "0"},
+{
+"id": 9, "name": "Chris Jordan", "runs": 0, "wickets": "1"},
+{"id": 10, "name": "Reece Topley", "runs": 0, "wickets": "0"}
+]
+}
+
+{"Bangladesh":[
+{"id": 0, "name": "Tanzid Hasan", "runs": 0, "wickets": "-"
+},
+{
+"id": 1, "name": "Litton Das", "runs": 10 , "wickets": "-"},
+{"id": 2 , "name": "Najmul Hossain Shanto(c)", "runs": 4, "wickets": "-"
+},
+{
+"id": 3, "name": "Shakib Al Hasan", "runs": 17, "wickets": "2"},
+{
+"id": 4, "name": "Towhid Hridoy", "runs": 9, "wickets": "-"},
+{"id": 5, "name": "Mahmudullah", "runs": 13, "wickets": "0"
+},
+{
+"id": 6, "name": "Jaker Ali", "runs": 12 , "wickets": "-"},
+{"id": 7, "name": "Tanzim Hasan Sakib", "runs": 3, "wickets": "4"
+},
+{
+"id": 8, "name": "Rishad Hossain", "runs": 13, "wickets": "0"},
+{
+"id": 9, "name": "Taskin Ahmed", "runs": 12, "wickets": "1"},
+{"id": 10, "name": "Mustafizur Rahman", "runs": 3, "wickets": "3"}
+]
+}
